@@ -11,12 +11,17 @@
 
 # --- COMMIT END ---
 # <type> can be
-#    feat     (new feature)
-#    fix      (bug fix)
-#    refactor (refactoring production code)
-#    style    (formatting, missing semi colons, etc; no code change)
-#    test     (adding or refactoring tests; no production code change)
-#    chore    (updating npm scripts etc; no production code change)
+#    feat     (Commits that result in a new features or functionalities.
+#              Backwards compatible features will release with the next MINOR whereas breaking changes will be in the next MAJOR.
+#              The body of a commit with breaking changes must begin with BREAKING CHANGE, followed by a description of how the API has changed)
+#    fix      (Commits that provide fixes for bugs within vuetify's codebase)
+#    docs     (Commits that provide updates to the docs)
+#    style    (Commits that do not affect how the code runs, these are simply changes to formatting)
+#    refactor (Commits that neither fixes a bug nor adds a feature)
+#    perf     (Commits that improve performance)
+#    test     (Commits that add missing or correct existing tests)
+#    chore    (Other commits that dont modify src or test files)
+#    revert   (Commits that revert previous commits)
 # --------------------
 # Remember to
 #    Capitalize the subject line
